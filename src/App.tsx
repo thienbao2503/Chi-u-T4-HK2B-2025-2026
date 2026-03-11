@@ -3,16 +3,70 @@ import "./App.css";
 function App() {
   return (
     <div id="templatemo_container">
+
+        
+        {/* templatemo_right_section */}
+      <div className="templatemo_right_section">
+        <h4>Categories</h4>
+        <div className="templatemo_right_section_content">
+          <ul>
+            <li>
+              <a href="#">Artificial and Silk</a>
+            </li>
+            <li>
+              <a href="#">Dried and Preserved</a>
+            </li>
+            <li>
+              <a href="#">Floral</a>
+            </li>
+            <li>
+              <a href="#">Fresh Cut</a>
+            </li>
+            <li>
+              <a href="#">Gardens</a>
+            </li>
+            <li>
+              <a href="#">Gifts</a>
+            </li>
+            <li>
+              <a href="#">Nurseries</a>
+            </li>
+            <li>
+              <a href="#">Services</a>
+            </li>
+            <li>
+              <a href="#">Weddings</a>
+            </li>
+            <li>
+              <a href="#">Wholesale</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
       <div id="templatemo_top_panel">
         <div id="templatemo_language_section">
-          <a href="#"><img src="images/templatemo_flag_01.gif" alt="flag 1" /></a>
-          <a href="#"><img src="images/templatemo_flag_02.gif" alt="flag 2" /></a>
-          <a href="#"><img src="images/templatemo_flag_03.gif" alt="flag 3" /></a>
-          <a href="#"><img src="images/templatemo_flag_04.gif" alt="flag 4" /></a>
-          <a href="#"><img src="images/templatemo_flag_05.gif" alt="flag 5" /></a>
+          <a href="#">
+            <img src="images/templatemo_flag_01.gif" alt="flag 1" />
+          </a>
+          <a href="#">
+            <img src="images/templatemo_flag_02.gif" alt="flag 2" />
+          </a>
+          <a href="#">
+            <img src="images/templatemo_flag_03.gif" alt="flag 3" />
+          </a>
+          <a href="#">
+            <img src="images/templatemo_flag_04.gif" alt="flag 4" />
+          </a>
+          <a href="#">
+            <img src="images/templatemo_flag_05.gif" alt="flag 5" />
+          </a>
         </div>
         <div id="templatemo_shopping_cart">
-          Shopping Cart <span>(<a href="#">3 items</a>)</span>
+          Shopping Cart{" "}
+          <span>
+            (<a href="#">3 items</a>)
+          </span>
         </div>
 
         {/* footer */}
