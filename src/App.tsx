@@ -4,8 +4,8 @@ function App() {
   return (
     <div id="templatemo_container">
 
-        
-        {/* templatemo_right_section */}
+
+      {/* templatemo_right_section */}
       <div className="templatemo_right_section">
         <h4>Categories</h4>
         <div className="templatemo_right_section_content">
@@ -92,6 +92,11 @@ function App() {
           <div className="cleaner">&nbsp;</div>
         </div>
       </div>
+
+      <div id="templatemo_header">
+        <img src="images/templatemo_site_header.jpg" alt="Flower Shop" />
+      </div>
+
     </div>
   );
 }
