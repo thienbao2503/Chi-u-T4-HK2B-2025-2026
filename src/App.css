@@ -109,3 +109,44 @@ p {
   margin: 0 auto;
   border: 10px solid #f2d9ef;
 }
+
+/* top panel */
+#templatemo_top_panel {
+  overflow: hidden;
+  width: 880px;
+  height: 32px;
+  padding: 5px 30px;
+  background: #c82c74;
+  border-bottom: 1px solid #870843;
+}
+
+#templatemo_top_panel #templatemo_language_section {
+  float: left;
+  width: 400px;
+  padding-right: 25px;
+  margin: 0;
+  padding: 0;
+}
+
+#templatemo_top_panel #templatemo_language_section img {
+  padding: 0px;
+  border: none;
+  margin-right: 5px;
+  border: 1px solid #ffffff;
+}
+
+#templatemo_top_panel #templatemo_shopping_cart {
+  float: right;
+  width: 400px;
+  padding-top: 10px;
+  text-align: right;
+  font-size: 14px;
+  font-weight: bold;
+  color: #ffffff;
+}
+
+#templatemo_top_panel #templatemo_shopping_cart span {
+  font-weight: normal;
+}
+
+/* end of top panel */
