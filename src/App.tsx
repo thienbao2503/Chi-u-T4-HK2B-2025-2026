@@ -3,7 +3,21 @@ import "./App.css";
 function App() {
   return (
     <div id="templatemo_container">
-
+      {/* templatemo_right_section */}
+      <div className="templatemo_right_section">
+        <h4>Search</h4>
+        <div className="templatemo_right_section_content">
+          <form method="get" action="#">
+            <input name="keyword" type="text" id="keyword" />
+            <input
+              type="submit"
+              name="submit"
+              className="button"
+              value="Search"
+            />
+          </form>
+        </div>
+      </div>
 
       {/* templatemo_right_section */}
       <div className="templatemo_right_section">
@@ -96,7 +110,6 @@ function App() {
       <div id="templatemo_header">
         <img src="images/templatemo_site_header.jpg" alt="Flower Shop" />
       </div>
-
     </div>
   );
 }
