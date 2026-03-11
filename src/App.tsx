@@ -6,7 +6,7 @@ function App() {
 
       <div id="templatemo_banner">
         <a href="#"><img src="images/templatemo_banner_image.jpg" alt="Flower Shop - Free Web Template"
-          title="Flower Shop - Free Web Template" border="0" /></a>
+          title="Flower Shop - Free Web Template" /></a>
       </div>
       {/* templatemo_right_section */}
       <div className="templatemo_right_section">
