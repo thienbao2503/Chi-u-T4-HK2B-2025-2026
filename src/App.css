@@ -109,3 +109,33 @@ p {
   margin: 0 auto;
   border: 10px solid #f2d9ef;
 }
+
+
+/*  footer */
+
+#templatemo_footer_panel{
+	overflow: hidden;
+	width: 900px;
+	padding: 15px 20px;
+	background: #333333;
+}
+
+#templatemo_footer_panel img{
+	margin: 0 5px 0 0;
+}
+
+#templatemo_footer_panel #footer_left {
+	float: left;
+	width: 340px;
+	padding: 0 25px 0 0;
+	margin: 0 15px 0 0;	
+	border-right: 1px solid #4c4c4c;
+
+}
+
+#templatemo_footer_panel #footer_right {
+	float: right;
+	width: 485px;
+	text-align: left;
+}
+/* end of footer */
